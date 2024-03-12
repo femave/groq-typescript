@@ -4,7 +4,7 @@ import * as Core from './core.ts';
 import * as Errors from './error.ts';
 import { type Agent } from './_shims/index.ts';
 import * as Uploads from './uploads.ts';
-import * as API from 'groq-sdk/resources/index.ts';
+import * as API from './resources/index.ts';
 
 export interface ClientOptions {
   /**
