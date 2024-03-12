@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import * as Core from 'groq-sdk/core.ts';
-import { APIResource } from 'groq-sdk/resource';
-import * as CompletionsAPI from 'groq-sdk/resources/chat/completions';
-import { Stream } from 'groq-sdk/lib/streaming.ts';
-import { ChatCompletionChunk } from 'groq-sdk/lib/chat_completions_ext';
+import * as Core from '../../core.ts';
+import { APIResource } from '../../resource';
+import * as CompletionsAPI from '../../resources/chat/completions';
+import { Stream } from '../../lib/streaming.ts';
+import { ChatCompletionChunk } from '../../lib/chat_completions_ext';
 
 export class Completions extends APIResource {
   /**

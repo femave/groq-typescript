@@ -1,9 +1,9 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import { APIResource } from 'groq-sdk/resource';
-import * as AudioAPI from 'groq-sdk/resources/audio/audio';
-import * as TranscriptionsAPI from 'groq-sdk/resources/audio/transcriptions';
-import * as TranslationsAPI from 'groq-sdk/resources/audio/translations';
+import { APIResource } from '../../resource';
+import * as AudioAPI from '../../resources/audio/audio';
+import * as TranscriptionsAPI from '../../resources/audio/transcriptions';
+import * as TranslationsAPI from '../../resources/audio/translations';
 
 export class Audio extends APIResource {
   transcriptions: TranscriptionsAPI.Transcriptions = new TranscriptionsAPI.Transcriptions(this._client);
