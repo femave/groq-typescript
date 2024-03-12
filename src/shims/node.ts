@@ -1,6 +1,6 @@
 // @ts-ignore
 import * as types from '../_shims/node-types';
-import { setShims } from '../_shims/registry';
+import { setShims } from '../_shims/registry.ts';
 import { getRuntime } from '../_shims/node-runtime';
 setShims(getRuntime());
 

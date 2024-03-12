@@ -1,4 +1,4 @@
-import { type RequestOptions } from './core';
+import { type RequestOptions } from './core.ts';
 import {
   FormData,
   File,
@@ -7,9 +7,9 @@ import {
   getMultipartRequestOptions,
   type FsReadStream,
   isFsReadStream,
-} from './_shims/index';
-import { MultipartBody } from './_shims/MultipartBody';
-export { fileFromPath } from './_shims/index';
+} from './_shims/index.ts';
+import { MultipartBody } from './_shims/MultipartBody.ts';
+export { fileFromPath } from './_shims/index.ts';
 
 type BlobLikePart = string | ArrayBuffer | ArrayBufferView | BlobLike | Uint8Array | DataView;
 export type BlobPart = string | ArrayBuffer | ArrayBufferView | Blob | Uint8Array | DataView;

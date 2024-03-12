@@ -1,5 +1,5 @@
-import { MultipartBody } from './MultipartBody';
-import { type RequestOptions } from '../core';
+import { MultipartBody } from './MultipartBody.ts';
+import { type RequestOptions } from '../core.ts';
 
 export const kind: string = 'web';
 

@@ -1,9 +1,9 @@
 /**
  * Disclaimer: modules in _shims aren't intended to be imported by SDK users.
  */
-import { MultipartBody } from './MultipartBody';
-import { type RequestOptions } from '../core';
-import { type Shims } from './registry';
+import { MultipartBody } from './MultipartBody.ts';
+import { type RequestOptions } from '../core.ts';
+import { type Shims } from './registry.ts';
 
 export function getRuntime({ manuallyImported }: { manuallyImported?: boolean } = {}): Shims {
   const recommendation =

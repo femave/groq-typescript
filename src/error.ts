@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import { castToError, Headers } from './core';
+import { castToError, Headers } from './core.ts';
 
 export class GroqError extends Error {}
 

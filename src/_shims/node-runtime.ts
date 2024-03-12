@@ -10,9 +10,9 @@ import { ReadStream as FsReadStream } from 'node:fs';
 import { type Agent } from 'node:http';
 import { FormDataEncoder } from 'form-data-encoder';
 import { Readable } from 'node:stream';
-import { type RequestOptions } from '../core';
-import { MultipartBody } from './MultipartBody';
-import { type Shims } from './registry';
+import { type RequestOptions } from '../core.ts';
+import { MultipartBody } from './MultipartBody.ts';
+import { type Shims } from './registry.ts';
 
 // @ts-ignore (this package does not have proper export maps for this export)
 import { ReadableStream } from 'web-streams-polyfill/dist/ponyfill.es2018.js';

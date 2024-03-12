@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { toFile, type ResponseLike } from 'groq-sdk/uploads';
-import { File } from 'groq-sdk/_shims/index';
+import { toFile, type ResponseLike } from 'groq-sdk/uploads.ts';
+import { File } from 'groq-sdk/_shims/index.ts';
 
 class MyClass {
   name: string = 'foo';

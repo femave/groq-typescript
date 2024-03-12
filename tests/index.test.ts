@@ -2,7 +2,7 @@
 
 import Groq from 'groq-sdk';
 import { APIUserAbortError } from 'groq-sdk';
-import { Headers } from 'groq-sdk/core';
+import { Headers } from 'groq-sdk/core.ts';
 import defaultFetch, { Response, type RequestInit, type RequestInfo } from 'node-fetch';
 
 describe('instantiate client', () => {

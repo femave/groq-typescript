@@ -1,7 +1,7 @@
 // @ts-ignore
 import * as types from '../_shims/web-types';
-import { setShims } from '../_shims/registry';
-import { getRuntime } from '../_shims/web-runtime';
+import { setShims } from '../_shims/registry.ts';
+import { getRuntime } from '../_shims/web-runtime.ts';
 setShims(getRuntime({ manuallyImported: true }));
 
 declare module '../_shims/manual-types' {

@@ -1,12 +1,12 @@
-import { VERSION } from './version';
-import { Stream } from './lib/streaming';
+import { VERSION } from './version.ts';
+import { Stream } from './lib/streaming.ts';
 import {
   GroqError,
   APIError,
   APIConnectionError,
   APIConnectionTimeoutError,
   APIUserAbortError,
-} from './error';
+} from './error.ts';
 import {
   kind as shimsKind,
   type Readable,
@@ -17,15 +17,15 @@ import {
   type RequestInit,
   type Response,
   type HeadersInit,
-} from './_shims/index';
+} from './_shims/index.ts';
 export { type Response };
-import { isMultipartBody } from './uploads';
+import { isMultipartBody } from './uploads.ts';
 export {
   maybeMultipartFormRequestOptions,
   multipartFormRequestOptions,
   createForm,
   type Uploadable,
-} from './uploads';
+} from './uploads.ts';
 
 export type Fetch = (url: RequestInfo, init?: RequestInit) => Promise<Response>;
 

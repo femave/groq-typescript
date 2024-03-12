@@ -1,5 +1,5 @@
-import { createResponseHeaders } from 'groq-sdk/core';
-import { Headers } from 'groq-sdk/_shims/index';
+import { createResponseHeaders } from 'groq-sdk/core.ts';
+import { Headers } from 'groq-sdk/_shims/index.ts';
 
 describe('response parsing', () => {
   // TODO: test unicode characters

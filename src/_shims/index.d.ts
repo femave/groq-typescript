@@ -3,7 +3,7 @@
  */
 import { manual } from './manual-types';
 import * as auto from 'groq-sdk/_shims/auto/types';
-import { type RequestOptions } from '../core';
+import { type RequestOptions } from '../core.ts';
 
 type SelectType<Manual, Auto> = unknown extends Manual ? Auto : Manual;
 

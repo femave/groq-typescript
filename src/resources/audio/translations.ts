@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import * as Core from 'groq-sdk/core';
+import * as Core from 'groq-sdk/core.ts';
 import { APIResource } from 'groq-sdk/resource';
 import * as TranslationsAPI from 'groq-sdk/resources/audio/translations';
 import * as AudioAPI from 'groq-sdk/resources/audio/audio';
-import { type Uploadable, multipartFormRequestOptions } from 'groq-sdk/core';
+import { type Uploadable, multipartFormRequestOptions } from 'groq-sdk/core.ts';
 
 export class Translations extends APIResource {
   /**

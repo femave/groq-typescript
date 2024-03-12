@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import * as Core from 'groq-sdk/core';
+import * as Core from 'groq-sdk/core.ts';
 import { APIResource } from 'groq-sdk/resource';
 import * as ModelsAPI from 'groq-sdk/resources/models';
 

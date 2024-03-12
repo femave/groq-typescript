@@ -1,4 +1,4 @@
-import { APIClient } from 'groq-sdk/core';
+import { APIClient } from 'groq-sdk/core.ts';
 
 const { stringifyQuery } = APIClient.prototype as any;
 
