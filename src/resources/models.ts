@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec by Stainless.
 
 import * as Core from '../core.ts';
-import { APIResource } from '../resource';
+import { APIResource } from '../resource.ts';
 import * as ModelsAPI from '../resources/models.ts';
 
 export class Models extends APIResource {

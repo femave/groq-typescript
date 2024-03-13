@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless.
 
 import * as Core from '../../core.ts';
-import { APIResource } from '../../resource';
-import * as CompletionsAPI from '../../resources/chat/completions';
+import { APIResource } from '../../resource.ts';
+import * as CompletionsAPI from '../../resources/chat/completions.ts';
 import { Stream } from '../../lib/streaming.ts';
-import { ChatCompletionChunk } from '../../lib/chat_completions_ext';
+import { ChatCompletionChunk } from '../../lib/chat_completions_ext.ts';
 
 export class Completions extends APIResource {
   /**

@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless.
 
-import { APIResource } from '../../resource';
+import { APIResource } from '../../resource.ts';
 import * as AudioAPI from '../../resources/audio/audio.ts';
 import * as TranscriptionsAPI from '../../resources/audio/transcriptions.ts';
 import * as TranslationsAPI from '../../resources/audio/translations.ts';
