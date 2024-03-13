@@ -1,5 +1,5 @@
 // Manually curated models for streaming chat completions.
-import { ChatCompletion } from '../resources/chat.ts'
+import { ChatCompletion } from '../resources/chat/index.ts'
 
 export interface ChatCompletionChunk {
   id: string;
