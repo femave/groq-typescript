@@ -3,7 +3,7 @@
 import * as Core from '../../core.ts';
 import { APIResource } from '../../resource';
 import * as TranslationsAPI from '../../resources/audio/translations';
-import * as AudioAPI from '../../resources/audio/audio';
+import * as AudioAPI from '../../resources/audio/audio.ts';
 import { type Uploadable, multipartFormRequestOptions } from '../../core.ts';
 
 export class Translations extends APIResource {

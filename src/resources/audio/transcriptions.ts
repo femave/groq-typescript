@@ -1,8 +1,8 @@
 // File generated from our OpenAPI spec by Stainless.
 
 import * as Core from '../../core.ts';
-import { APIResource } from '../../resource';
-import * as TranscriptionsAPI from '../../resources/audio/transcriptions';
+import { APIResource } from '../../resource.ts';
+import * as TranscriptionsAPI from '../../resources/audio/transcriptions.ts';
 import { type Uploadable, multipartFormRequestOptions } from '../../core.ts';
 
 export class Transcriptions extends APIResource {

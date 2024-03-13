@@ -2,7 +2,7 @@
 
 import * as Core from '../core.ts';
 import { APIResource } from '../resource';
-import * as ModelsAPI from '../resources/models';
+import * as ModelsAPI from '../resources/models.ts';
 
 export class Models extends APIResource {
   /**

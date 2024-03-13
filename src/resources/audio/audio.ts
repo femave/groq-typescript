@@ -1,9 +1,9 @@
 // File generated from our OpenAPI spec by Stainless.
 
 import { APIResource } from '../../resource';
-import * as AudioAPI from '../../resources/audio/audio';
-import * as TranscriptionsAPI from '../../resources/audio/transcriptions';
-import * as TranslationsAPI from '../../resources/audio/translations';
+import * as AudioAPI from '../../resources/audio/audio.ts';
+import * as TranscriptionsAPI from '../../resources/audio/transcriptions.ts';
+import * as TranslationsAPI from '../../resources/audio/translations.ts';
 
 export class Audio extends APIResource {
   transcriptions: TranscriptionsAPI.Transcriptions = new TranscriptionsAPI.Transcriptions(this._client);
